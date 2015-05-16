@@ -1,4 +1,5 @@
 A simple store-and-forward message switch.
 
 The switch stores messages in queues with well-known names. Clients use
-a simple HTTP protocol to enqueue and dequeue messages.
+a simple HTTP protocol to enqueue and dequeue messages. Messages are
+persisted until explicitly acknowledged by clients.

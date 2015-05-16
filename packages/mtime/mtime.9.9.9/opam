@@ -11,7 +11,6 @@ available: [ ocaml-version >= "4.01.0"]
 depends: [ "ocamlfind"
            "js_of_ocaml" # FIXME should become a deptopt 
 ]
-patches: ["mtime-no-js.patch"]
 build:
 [
   [ "ocaml" "pkg/git.ml" ]
