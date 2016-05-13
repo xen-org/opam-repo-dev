@@ -1,2 +1,2 @@
-archive: "https://github.com/xapi-project/xapi-test-utils/archive/v1.0.0.tar.gz"
+archive: "git@github.com:xapi-project/xapi-test-utils"
 checksum: "e364ad19841e083abb8869e069f878ed"
