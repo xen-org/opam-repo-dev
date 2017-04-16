@@ -1,0 +1,18 @@
+opam-version: "1"
+maintainer: "dave.scott@citrix.com"
+build: [
+  [make]
+  [make "install" "PREFIX=%{prefix}%"]
+]
+remove: ["make" "uninstall"]
+depends: [
+  "xapi-idl" {>= "0.9.22" }
+  "rpc"
+  "async_inotify"
+  "async_kernel"
+  "message-switch" {>= "0.10.5" }
+  "xapi-storage" {>= "0.3" }
+  "sexplib"
+  "camlp4"
+  "type_conv"
+]

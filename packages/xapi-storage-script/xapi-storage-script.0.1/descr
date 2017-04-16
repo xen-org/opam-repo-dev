@@ -1,0 +1,7 @@
+Adapter which allows xapi storage adapters to be written as scripts
+
+Adapters should be created in the following directory structure:
+
+/var/lib/xapi/storage-scripts/
+  datapath/file/Datapath.*
+  volume/org.xen.xcp.storage.ffs/{Plugin,SR,Volume}.*
