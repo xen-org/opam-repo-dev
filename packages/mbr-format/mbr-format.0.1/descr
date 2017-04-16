@@ -1,0 +1,4 @@
+A simple library for manipulating Master Boot Records. The primary purposes of this library are:
+
+  1. to create bootable disk images creating mirage kernels
+  2. for mirage kernels to read the partition tables on attached disks
