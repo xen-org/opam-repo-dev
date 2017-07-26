@@ -14,6 +14,7 @@ depends: [
   "oasis" {build}
   "lwt" {>= "2.4.3"}
   "cstruct" {>= "1.0.1"}
+  "cstruct-lwt"
   "ssl"
   "ounit" {test}
   "cohttp" {>= "0.12.0"}
